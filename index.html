@@ -3,6 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script>
+        (function () {
+            const urlPermitida = "https://amanaristudio.com.br/";
+
+            if (window.location.href !== urlPermitida) {
+                window.location.replace(urlPermitida);
+            }
+        })();
+    </script>
+
     <title>Amanari Studio | Portfólio de Jogos</title>
 
     <link rel="preload" href="https://i.postimg.cc/XvhVb1RP/IMG-8485.gif" as="image">
